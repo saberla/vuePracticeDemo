@@ -50,10 +50,15 @@ export default {
     height: auto;
     margin-top: 40px;
 }
+
+.map{
+    margin-bottom: 100px;
+}
 .img>img{
     width: 85%;
     height: auto;
 }
+
 // input
 .input{
     display: flex;
@@ -75,19 +80,17 @@ export default {
 .el{
     padding-top: 30px;
 }
-.el-input__inner{
-    width: 580px !important;
-}
-.el-textarea__inner{
-    width: 580px !important;
-}
+// .el-input__inner{
+//     width: 580px !important;
+// }
+// .el-textarea__inner{
+//     width: 580px !important;
+// }
 .btn{
     background-color: #10c9c3;
     color: #ffffff;
     width: 200px;
     margin-top: 30px;
 }
-.map{
-    margin-bottom: 100px;
-}
+
 </style>

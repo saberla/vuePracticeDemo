@@ -12,7 +12,7 @@
             <el-menu-item><router-link to="/"><div class="img1"></div></router-link></el-menu-item>
             <el-menu-item><router-link to="/about"><div class="img2"></div></router-link></el-menu-item>
             <el-menu-item><router-link to="/contact"><div class="img3"></div></router-link></el-menu-item>
-            </el-menu>
+          </el-menu>
         </el-col>
       </el-row>
     </div>
@@ -67,6 +67,7 @@ export default {
   background: url(./assets/02_Home_07.png) no-repeat;
   margin-top: 20px;
 }
+//hover时切换
 .img1:hover{
   background: url(./assets/02_Home_03.png) no-repeat
 }

@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <div class="word">
-      <div><img src="../assets/HOME/02_Home_13.png" alt="wordImg"></div>
+      <div class="logo"><img src="../assets/HOME/02_Home_13.png" alt="wordImg"></div>
       <span>I am a Graphic & Web Designer based in New York, specializing  </span>
     </div>
     <home></home>
@@ -32,6 +32,13 @@ export default {
     display: flex;
     justify-content: center;
     flex-direction: column;
+  }
+  .logo{
+    width: 100%;
+  }
+  .logo>img{
+    width: 36%;
+    height: auto;
   }
   .word>span{
     color: #9f9f9f;

@@ -14,7 +14,6 @@ export default {
     'Footer': Footer
   }
 }
-
 </script>
 <style lang='less' scoped>
 .contact{
